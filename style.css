@@ -1,21 +1,29 @@
+/*THIS IS THE CSS FILE FOR THE PAGE*/
+
+
+/*THIS BODY HOLDS THE BACKGROUND COLOR AND IMAGE*/
 body {
-    background-color:black;
-    background-image: url('https://t3.ftcdn.net/jpg/01/09/93/84/360_F_109938452_lyfzlslq2nDMMxmnxVZUIsD2UujLKsbw.jpg');
+    background-color:#596365;
+    /*background-image: url('https://t3.ftcdn.net/jpg/01/09/93/84/360_F_109938452_lyfzlslq2nDMMxmnxVZUIsD2UujLKsbw.jpg');*/
     background-repeat: repeat;
 }
+/*----------------------------------*/
 
+/*THIS CONTAINER HOLDS THE LEFT AND RIGHT SIDES OF THE PAGE*/
 .container {
     height: 900px;
     width: 700px;
-    background-color: fuchsia;
+    /*background-color: fuchsia;*/
     border-radius: 25px;
     margin: 0 auto;
 }
+/*----------------------------------*/
 
+/*THIS SECTION HOUSES THE LEFT SIDE OF THE PAGE*/
 .left-side {
     height: 100%;
     width: 25%;
-    background-color: blueviolet;
+    /*background-color: white;*/
     border-radius: 25px;
     margin: 0 auto;
     float: left;
@@ -24,26 +32,26 @@ body {
 
 .badge {
     height: 15%;
-    width: 98%;
-    background-color: red;
+    width: 100%;
+    background-color: #f2e20e   ;
     border-radius: 25px;
-    margin: 0 auto;
-    padding: auto;
+    margin-top: 10px;
 }
 
 .nav-content {
     height: 85%;
-    width: 98%;
-    background-color: green;
+    width: 100%;
+    background-color: #f50989;
     border-radius: 25px;
-    margin: 0 auto;
-    padding: auto;
+    margin-top: 10px;
 }
+/*----------------------------------*/
 
+/*THIS SECTION HOUSES THE RIGHT SIDE OF THE PAGE*/
 .right-side {
     height: 100%;
     width: 75%;
-    background-color: lime;
+    /*background-color: white;*/
     border-radius: 25px;
     margin: 0 auto;
     float: right;
@@ -52,19 +60,19 @@ body {
 
 .header {
     height: 15%;
-    width: 99%;
-    background-color: yellow;
+    width: 100%;
+    background-color: lime;
     border-radius: 25px;
-    margin: 0 auto;
-    padding: auto;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .content {
     height: 85%;
-    width: 99%;
-    background-color: cyan;
+    width: 100%;
+    background-color: #0acbf1;
     border-radius: 25px;
-    margin: 0 auto;
-    padding: auto;
+    margin-top: 10px;
+    margin-left: 10px;
 }
-
+/*----------------------------------*/
