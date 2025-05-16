@@ -1,0 +1,70 @@
+body {
+    background-color:black;
+    background-image: url('https://t3.ftcdn.net/jpg/01/09/93/84/360_F_109938452_lyfzlslq2nDMMxmnxVZUIsD2UujLKsbw.jpg');
+    background-repeat: repeat;
+}
+
+.container {
+    height: 900px;
+    width: 700px;
+    background-color: fuchsia;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.left-side {
+    height: 100%;
+    width: 25%;
+    background-color: blueviolet;
+    border-radius: 25px;
+    margin: 0 auto;
+    float: left;
+    padding: auto;
+}
+
+.badge {
+    height: 15%;
+    width: 98%;
+    background-color: red;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: auto;
+}
+
+.nav-content {
+    height: 85%;
+    width: 98%;
+    background-color: green;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: auto;
+}
+
+.right-side {
+    height: 100%;
+    width: 75%;
+    background-color: lime;
+    border-radius: 25px;
+    margin: 0 auto;
+    float: right;
+    padding: auto;
+}
+
+.header {
+    height: 15%;
+    width: 99%;
+    background-color: yellow;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: auto;
+}
+
+.content {
+    height: 85%;
+    width: 99%;
+    background-color: cyan;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: auto;
+}
+
