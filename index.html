@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" />
-    <title>Document</title>
+    <title>waoooooow</title>
+	<script type="text/javascript">
+		message = "waoooooow";
+		function step() {
+			message = message.substr(1) + message.substr(0,1);
+			document.title = message.substr(0,15);
+		}
+	</script>
 </head>
-<body>
+<body onload="setInterval(step,100)">
     <div class="container">
         <div class="left-side">
             <div class="badge"></div>
