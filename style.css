@@ -33,7 +33,8 @@ body {
 .badge {
     height: 15%;
     width: 100%;
-    background-color: #f2e20e   ;
+    background-image: url('assets/badge_bg.png');
+    background-color: #f2e20e;
     border-radius: 25px;
     margin-top: 10px;
 }
@@ -41,6 +42,7 @@ body {
 .nav-content {
     height: 85%;
     width: 100%;
+    background-image: url('assets/nav_bg.png');
     background-color: #f50989;
     border-radius: 25px;
     margin-top: 10px;
@@ -61,7 +63,8 @@ body {
 .header {
     height: 15%;
     width: 100%;
-    background-color: lime;
+    background-image: url('assets/header_bg.png');
+    background-color: #00ff00;
     border-radius: 25px;
     margin-top: 10px;
     margin-left: 10px;
@@ -70,6 +73,7 @@ body {
 .content {
     height: 85%;
     width: 100%;
+    background-image: url('assets/content_bg.png');
     background-color: #0acbf1;
     border-radius: 25px;
     margin-top: 10px;
