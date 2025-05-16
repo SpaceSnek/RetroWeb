@@ -15,6 +15,8 @@ body {
     /*background-color: fuchsia;*/
     border-radius: 25px;
     margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 25px;
 }
 /*----------------------------------*/
 
@@ -32,19 +34,19 @@ body {
 .badge {
     height: 15%;
     width: 100%;
-    background-image: url('assets/badge_bg.png');
     background-color: #f2e20e;
     border-radius: 25px;
     margin-top: 10px;
+    box-shadow: 5px 5px;
 }
 
 .nav-content {
     height: 85%;
     width: 100%;
-    background-image: url('assets/nav_bg.png');
     background-color: #f50989;
     border-radius: 25px;
     margin-top: 10px;
+    box-shadow: 5px 5px;
 }
 /*----------------------------------*/
 
@@ -62,20 +64,20 @@ body {
 .header {
     height: 15%;
     width: 100%;
-    background-image: url('assets/header_bg.png');
     background-color: #00ff00;
     border-radius: 25px;
     margin-top: 10px;
     margin-left: 10px;
+    box-shadow: 5px 5px;
 }
 
 .content {
     height: 85%;
     width: 100%;
-    background-image: url('assets/content_bg.png');
     background-color: #0acbf1;
     border-radius: 25px;
     margin-top: 10px;
     margin-left: 10px;
+    box-shadow: 5px 5px;
 }
 /*----------------------------------*/
